@@ -38,7 +38,7 @@ public void each_vehicle_entry_shows_valid_and_accurate_information() {
 public void the_list_is_scrollable_if_necessary() {
 "The list should be scrollable if necessary", vehiclesManagementScreenPage.isListScrollable();
 }
-@When("the user clicks on the {string} button")
+// DUPLICATE: @When("the user clicks on the {string} button")
 public void the_user_clicks_on_the_button(String button) {
 vehiclesManagementScreenPage.clickButton(button);
 }
