@@ -23,6 +23,11 @@ package com.project.runner;
         }
     
     @Test(priority = 2)
+        public void runSheet1() {
+            runCucumberFeature("src/test/resources/com/automation113/features/Sheet1.feature");
+        }
+    
+    @Test(priority = 3)
         public void runVehiclesmanagementscreen() {
             runCucumberFeature("src/test/resources/com/automation113/features/VehiclesManagementScreen.feature");
         }
