@@ -18,6 +18,11 @@ package com.project.runner;
         }
     
     @Test(priority = 1)
+        public void runHomescreen() {
+            runCucumberFeature("src/test/resources/com/automation113/features/HomeScreen.feature");
+        }
+    
+    @Test(priority = 2)
         public void runVehiclesmanagementscreen() {
             runCucumberFeature("src/test/resources/com/automation113/features/VehiclesManagementScreen.feature");
         }
